@@ -1,0 +1,124 @@
+* {
+    box-sizing : border-box ;
+    margin: 0;
+    padding: 0;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+header{
+    background-color:black;
+}
+ul{
+    padding: 1%;
+    text-align: right;
+    margin-right: 1%;
+    color: white;
+}
+.habilidades{
+    display: inline-block;
+    background-color: lightskyblue ;
+    border-radius: 5%;
+    margin-left:10%;
+    margin-bottom: 10%;
+}
+h1, h2{
+    margin-top: 10%;
+    text-align: center;
+}
+.apresentacao{text-align: center;
+margin: auto;}
+#apresentação{
+    background-color:lightskyblue;
+    border-radius: 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+.centralizado{
+    margin: auto;
+    text-align:left ;
+}
+#sobreMim {
+    margin-top: 30%;
+    
+}
+#minhasHabilidades{
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+footer{
+    margin-top: 30%;  
+}
+#imagemSobreMim{
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 40%;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.linkCabecalho{
+    color: beige;
+}
+body{
+    background-image: url("https://neufert-cdn.archdaily.net/uploads/photo/image/251849/large_TRAVERTINO.jpg");
+}
+.imagensHabilidades{
+    width:50%;
+    margin-left: 25%;
+}
+.linguagem{
+    text-align: center;
+}
+.textoRodape{
+    text-align: center;
+}
+li{
+    list-style: none;
+    color: #000000;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+
+[class*="col-"]{
+    width: 100%;
+    margin: 0%;
+}   
+.imagensHabilidades{
+    width:15%;
+    margin-left: 43%;
+    border-radius: 50%;
+}
+.habilidades{
+    display: block;
+    background-color: lightskyblue ;
+    border-radius: 5%;
+    margin-bottom: 10%;
+}
+#imagemSobreMim{
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 40%;
+}
+li{
+    list-style: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+}
+.linhaRodape{
+    text-align: center;
+}
+}
